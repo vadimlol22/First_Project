@@ -56,6 +56,13 @@ body {
     padding: 35px 28px 30px 28px;
 }
 
+.header__navigation__link:hover {
+    background: #EC7979;
+}
+
+.header__navigation__link:active {
+    background: #AB4949;
+}
 
 
 
@@ -116,6 +123,17 @@ body {
     color: #FFFFFF;
     background: rgba(0, 0, 0, 0.0);
     border: 2px solid #FFFFFF;
+}
+
+.main__content__btn:hover {
+    color: #EC7979;
+    border: 2px solid #EC7979;
+}
+
+.main__content__btn:active {
+    background: #AB4949;
+    border: 2px solid #AB4949;
+    color: #FFFFFF;
 }
 
 
@@ -337,7 +355,7 @@ body {
     align-items:baseline;
 }
 
-.feedback__item__person__about p.main {
+.feedback__item__person__about p.who {
     font-family: 'Open Sans';
     font-size: 24px;
     line-height: 33px;
