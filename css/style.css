@@ -32,6 +32,8 @@ body {
 
 
 
+
+
 .header {
     background-color: #000000;
     padding: 22px 0;
@@ -65,6 +67,8 @@ body {
 .header__navigation__link:active {
     background: #AB4949;
 }
+
+
 
 
 
@@ -154,6 +158,10 @@ body {
 
 
 
+
+
+
+
 .awesome {
     margin-bottom: 58px;
 }
@@ -201,8 +209,6 @@ body {
     font-family: 'Open Sans';
     text-align: center;
     display: flex;
-    /* padding-top: 30px; */
-    /* padding-bottom: 8px; */
     margin-bottom: 45px;
 }
 
@@ -212,6 +218,8 @@ body {
     line-height: 21px;
     text-align: center;
 }
+
+
 
 
 
@@ -309,6 +317,11 @@ body {
 
 
 
+
+
+
+
+
 .feedback {
     padding-bottom: 64px;
 }
@@ -388,6 +401,8 @@ body {
 
 
 
+
+
 .banner {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner.png) no-repeat center center;
     background-size: cover;
@@ -435,6 +450,8 @@ body {
     border: 2px solid #AB4949;
     color: #FFFFFF;
 }
+
+
 
 
 
