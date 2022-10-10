@@ -39,17 +39,19 @@ body {
     padding: 22px 0;
 }
 
-.header__container {
+.header__all {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:  1510px
+}
+
+.header__all__logo {
+    margin-left: -55px;
 }
 
 
-.header__navigation__link {
+
+.header__all__navigation__link {
     text-decoration: none;
     font-family: 'Open Sans';
     font-weight: 600;
@@ -60,11 +62,11 @@ body {
     padding: 35px 28px 30px 28px;
 }
 
-.header__navigation__link:hover {
+.header__all__navigation__link:hover {
     background: #EC7979;
 }
 
-.header__navigation__link:active {
+.header__all__navigation__link:active {
     background: #AB4949;
 }
 
