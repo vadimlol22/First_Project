@@ -300,7 +300,8 @@ body {
     line-height: 50px;
 }
 
-.pricing__item_2 {
+.pricing__item:hover {
+    transition: 0.2s;
     transform: translateY(-20px);
 }
 
