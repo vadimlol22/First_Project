@@ -151,7 +151,79 @@ body {
     height: 450px;
     background-color: #FFFFFF;
     margin-top: 208px;
+    border-radius: 10px;
+    position: relative;
 }
+
+.form__title {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #333333;
+    margin-top: 35px;
+    margin-bottom: 82px;
+    text-transform: uppercase;
+}
+
+.form__title span {
+    color: #EC7979;
+}
+
+.form__field {
+    padding: 0 50px;
+    width: 100%;
+}
+
+.form__line {
+    border: 1px solid #BDBDBD;
+    width: 100%;
+    margin-bottom: 33px;
+}
+
+.form__field input[type="text"],
+.form__field input[type="password"],
+.form__field input[type="email"] {
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+.form__field input::placeholder {
+    color: #BDBDBD;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400
+}
+
+.form__field input {
+    margin-bottom: 16px;
+    outline: none;
+    border: none;
+}
+
+.form__btn {
+    background: #EC7979;
+    width: 100%;
+    height: 60px;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 10px 10px;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.form__btn:hover {
+    background: #AB4949;
+}
+
+.form__btn:active {
+    background: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
+}
+
 
 
 
@@ -285,6 +357,7 @@ body {
 
 .pricing__item {
     width: 33.333333%;
+    transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
 }
 
 .pricing__item ul {
@@ -344,8 +417,8 @@ body {
 }
 
 .pricing__item:hover {
-    transition: 0.2s;
     transform: translateY(-20px);
+
 }
 
 
@@ -533,6 +606,7 @@ body {
 
 .contact__form__login input[type="text"],
 .contact__form__login input[type="password"],
+.contact__form__login input[type="email"],
 .contact__form__message textarea {
     font-family: 'Open Sans';
     font-size: 14px;
@@ -596,6 +670,7 @@ footer {
     gap: 44px;
     padding-top: 42px;
     margin-bottom: 34px;
+    align-items: center;
 }
 
 .footer__ending {
