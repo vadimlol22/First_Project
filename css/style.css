@@ -158,6 +158,39 @@ body {
 
 
 
+.media {
+    background-color: #F8EFEF;
+}
+
+.media__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;
+}
+
+.media__content__text__title {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 18px;
+}
+
+.media__content__text__subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+
+.media__content__icons {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+
 
 
 
