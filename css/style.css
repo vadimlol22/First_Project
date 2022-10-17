@@ -30,10 +30,6 @@ body {
 
 
 
-
-
-
-
 .header {
     background-color: #000000;
     padding: 22px 0;
@@ -263,6 +259,133 @@ body {
 }
 
 
+
+
+
+
+.tabs{
+    display: flex;
+    flex-wrap: wrap ;
+    padding-top: 100px;
+}
+.tabs__label{
+    text-align: center;
+    align-items: center;
+    padding:10px 73px 10px 73px;
+    cursor:pointer;
+    color:#333333;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+.tabs__radio{
+    display:none;
+}
+
+.tabs__content{
+    order: 1;
+    width: 100%;
+    display: none;
+    border: 1px #C6CBCD solid;
+}
+
+.tabs__radio:checked+.tabs__label{
+    
+    color:#333333;
+    border-top: 1px #C6CBCD solid;
+    border-left:  1px #C6CBCD solid;
+    border-right: 1px #C6CBCD solid; ;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: relative;
+}
+
+.tabs__radio:checked+.tabs__label+.tabs__content{
+    display:initial;
+
+}
+
+.tabs__radio:checked+.tabs__label:after{
+    content:'';
+    display: block;
+    width: 185px;
+    height: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+}
+
+.tabs__content__wrap{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    
+}
+
+.tabs__content__wrap h3{
+    padding-top: 45px;
+    padding-bottom: 76px;
+}
+
+.tabs__text{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.tabs__text span{
+    display: block;
+}
+.space{
+    padding-top:20px;
+}
+
+.tabs__content__wrap  h3{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 41px;
+}
+
+.tabs__content__wrap img {
+    height: 100%;
+}
+
+.tabs__btn{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    background-color: #EC7979;
+    margin-top:27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 25px;
+    width: 270px;
+    height: 58px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.tabs__btn:hover{
+    border-color: #AB4949 ;
+    background-color:  #AB4949;
+    color:#FFFFFF;
+}
+
+.tabs__btn:active{
+    background-color: #EC7979;
+    border:none;
+    color:#FFFFFF;
+    box-shadow: inset 0px 0px 10px #AB4949;
+
+}
 
 
 
