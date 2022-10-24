@@ -383,15 +383,21 @@
         top: -8px;
     }
 
-    
 
 
+
+
+
+
+    .main {
+        padding-bottom: 50px;
+    }
 
     .main__content {
         display: block;
         text-align: center;
-        align-items: center;
-    }
+        padding-top: 84px;
+    } 
 
     .main__content__logo {
         display: none;
@@ -400,19 +406,64 @@
     .main__content__title {
         width: 288px;
         text-align: center;
+        margin: 0 auto;
+        padding-bottom: 43px;
+    }
+
+    .main__content__separator {
+        margin: 0 auto;
+    }
+
+    .main__content__subtitle {
+        width: 288px;
+        padding-top: 42px;
+        margin: 0 auto;
+    }
+
+    .main__content__btn {
+        padding: 17px 100px;
+        margin-top: 42px;
     }
 
 
+    
 
-
-
-    .media__content {
-        flex-direction: column;
-    }
 
     .form {
         width: 288px;
         height: 381px;
+        background-color: #FFFFFF;
+        margin-top: 0px;
+        position: relative;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .form__title {
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 56px;
+        margin-bottom: 39px;
+        padding-top: 37px;
+    }
+    
+
+
+    
+    
+    .form__field {
+        padding: 0 20px;
+        width: 100%;
+    }
+    
+    .form__btn {
+        position: absolute;
+        transform: translateX(-50%);
+    }
+
+    .form__field input {
+        margin-left: -65px;
     }
 
 
@@ -430,14 +481,203 @@
 
 
 
+
+
+    .media__content__text__title {
+        font-size: 18px;
+        line-height: 25px;
+        width: 271px;
+    }
+
+    .media__content__text__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        width: 271px;
+    }
+
+    .media__content {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 46px 0;
+    }
+
+    .media__content__icons {
+        gap: 0px;
+    }
+
+    .media__content__icons a {
+        transform: scale(0.38);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .tabs {
+        padding-top: 41px;
+    }
+
+    .tabs__label{
+        padding:10px 28px 10px 28px;
+    }
+    
+    .tabs__radio:checked+.tabs__label:after{
+        width: 184px; 
+    }
+
+    .tabs__content__wrap{
+        padding-left: 84px;  
+    }
 
     .tabs__content__wrap img {
         display: none;
     }
 
+    .tabs__content__wrap h3{
+        text-align: center;
+        padding-top: 34px;
+        padding-bottom: 65px;
+        font-size: 18px;
+        line-height: 25px;
+        width: 181px;
+    }
+
+    .tabs__content__wrap p {
+        text-align: center;
+        font-size: 13px;
+        line-height: 15px;
+        width: 244px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .tabs__btn {
+        margin-top:38px;
+        width: 231px;
+        height: 58px;
+    }
 
 
 
 
+    .banner {
+        padding-bottom: 50px;
+    }
+
+    .banner__separator {
+        width: 134px;
+    }
+
+    .banner__title {
+        padding-top: 48px;
+        padding-bottom: 18px;
+    }
+
+    .banner__subtitle {
+        width: 288px;
+        margin: 0 auto;
+    }
+
+    .banner__btn {
+        padding: 15px 100px;
+        margin-top: 66px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .contact__title {
+        margin-bottom: 26px;
+        padding-top: 50px;
+    }
+
+    .contact__separator {
+        width: 134px;
+        margin: 24px auto;
+    }
+
+    .contact__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        width: 288px;
+        margin: 0 auto;
+        padding-bottom: 64px;
+    }
+
+    .contact__form {
+        flex-direction: column;
+        gap: 0px;
+        align-items: center;
+    }
+
+    .contact__form__message textarea {
+        height: 182px;
+    }
+
+    .contact__form .left {
+        width: 288px;
+    }
+    
+    .contact__form .right {
+        width: 288px;
+    }
+
+    .contact__btn {
+        padding: 16px 81px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .footer__icons {
+        gap: 22px;
+        transform: scale(0.52);
+        padding-top: 15px;
+        margin-bottom: 25px;
+    }
+
+    .footer__ending {
+        padding-bottom: 45px;
+    }
 
 }
