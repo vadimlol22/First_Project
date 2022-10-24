@@ -6,6 +6,8 @@
     }
 
 
+
+
     .header__all__logo {
         margin-left: 0;
     }
@@ -186,6 +188,9 @@
 
 
 
+
+
+
     .pricing__title {
         font-size: 24px;
         line-height: 28px;
@@ -201,6 +206,8 @@
     .pricing__list {
         gap: 20px;   
     }
+
+
 
 
 
@@ -312,11 +319,11 @@
         font-size: 14px;
         line-height: 16px; 
     }
-
-
-
-
 }
+
+
+
+
 
 
 
@@ -343,8 +350,6 @@
         width: 24px;
         height: 22px;
     }
-
-
 
     .header__all__navigation {
         display: none;
@@ -389,6 +394,8 @@
 
 
 
+
+
     .main {
         padding-bottom: 50px;
     }
@@ -426,7 +433,10 @@
     }
 
 
-    
+
+
+
+
 
 
     .form {
@@ -439,7 +449,7 @@
         text-align: center;
         margin: 0 auto;
     }
-    
+
     .form__title {
         font-size: 14px;
         line-height: 19px;
@@ -447,16 +457,12 @@
         margin-bottom: 39px;
         padding-top: 37px;
     }
-    
 
-
-    
-    
     .form__field {
         padding: 0 20px;
         width: 100%;
     }
-    
+
     .form__btn {
         position: absolute;
         transform: translateX(-50%);
@@ -465,12 +471,6 @@
     .form__field input {
         margin-left: -65px;
     }
-
-
-
-
-
-
 
 
 
@@ -503,13 +503,10 @@
     }
 
     .media__content__icons {
-        gap: 0px;
-    }
-
-    .media__content__icons a {
+        justify-content: center;
+        gap: 22px;
         transform: scale(0.38);
     }
-
 
 
 
@@ -530,15 +527,21 @@
     }
 
     .tabs__label{
-        padding:10px 28px 10px 28px;
+        padding:10px 28px 10px 29px;
+        margin: 0 auto
     }
-    
+
     .tabs__radio:checked+.tabs__label:after{
-        width: 184px; 
+        width: 96px; 
+    }
+
+    .tabs__content {
+        padding-bottom: 30px;
     }
 
     .tabs__content__wrap{
-        padding-left: 84px;  
+        padding-left: 20px;  
+        display: block;
     }
 
     .tabs__content__wrap img {
@@ -552,6 +555,7 @@
         font-size: 18px;
         line-height: 25px;
         width: 181px;
+        margin: 0 auto;
     }
 
     .tabs__content__wrap p {
@@ -559,6 +563,8 @@
         font-size: 13px;
         line-height: 15px;
         width: 244px;
+        margin: 0 auto;
+        padding-bottom: 30px;
     }
 
     br {
@@ -566,10 +572,196 @@
     }
 
     .tabs__btn {
-        margin-top:38px;
         width: 231px;
         height: 58px;
+        margin: 0 auto;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .awesome__title {
+        font-size: 18px;
+        line-height: 21px;
+        padding-top: 49px;
+    }
+
+    .separator {
+        width: 134px;
+        margin: 25px auto;
+    }
+
+    .awesome__subtitle {
+        font-size: 13px;
+        line-height: 15px;
+        width: 288px;
+        margin: 0 auto;
+        padding-bottom: 83px;
+    }
+
+    .awesome__list {
+        flex-direction: column;
+        gap: 43px;
+    }
+
+    .awesome__item {
+        margin: 0 auto;
+        width: 284px
+    }
+
+    .awesome__item__circle {
+        margin-bottom: 57px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .pricing {
+        padding-bottom: 26px;
+    }
+
+    .pricing__title {
+        padding-top: 47px;
+    }
+
+    .pricing__subtitle {
+        width: 288px;
+        margin: 0 auto;
+        padding-bottom: 24px;
+    }
+
+
+    .pricing__list {
+        flex-direction: column;
+        gap: 27px;
+    }
+
+    .pricing__item {
+        margin: 0 auto;
+        width: 288px;
+    }
+
+    .pricing__item ul .pricing__item__first {
+        font-size: 18px;
+        line-height: 25px;
+        height: 47px;
+        line-height: 47px;
+
+    }
+    
+    .pricing__item ul .pricing__item__second {
+        font-size: 24px;
+        line-height: 28px;
+        height: 78px;
+        line-height: 78px;
+    }
+    
+    .pricing__item ul .pricing__item__third {
+        font-size: 14px;
+        line-height: 16px;
+        height: 39px;
+        line-height: 39px;
+    }
+    
+    .pricing__item li {
+        font-size: 14px;
+        line-height: 16px;
+        height: 39px;
+        line-height: 39px;
+    }
+    
+    .pricing__item:hover {
+        transform: translateY(0px);
+        box-shadow: 0px 0px 0px rgba(51, 51, 51, 0.2);
+    }
+
+
+
+
+    .feedback {
+        padding-bottom: 31px;
+    }
+
+    .feedback__title {
+        width: 288px;
+        margin: 0 auto;
+    }
+
+    .feedback__subtitle {
+        width: 288px;
+        margin: 0 auto;
+        padding-bottom: 24px;
+    }
+
+    .feedback__item:first-child {
+        display: none;
+    }
+
+    .feedback__item:last-child {
+        display: none;
+    }
+
+    .feedback__item {
+        width: 288px;
+    }
+    
+    .feedback__item__text {
+        padding: 0 19px;
+    }
+
+    .feedback__item__person img {
+        transform: scale(0.9);
+    }
+
+    .feedback__item__person__about p.who {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .feedback__item__person__about p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .feedback__dots {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 32px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

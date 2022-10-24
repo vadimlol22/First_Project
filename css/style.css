@@ -1,11 +1,13 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .container {
     max-width: 1170px;
     padding: 0 15px;
@@ -18,12 +20,17 @@ body {
     text-align: center;
     padding-top: 110px;
 }
+
 .separator {
     width: 170px;
     height: 1px;
     background-color: #EC7979;
     margin: 63px auto;
 }
+
+
+
+
 
 
 
@@ -45,8 +52,6 @@ body {
     margin-left: -55px;
 }
 
-
-
 .header__all__navigation__link {
     text-decoration: none;
     font-family: 'Open Sans';
@@ -66,10 +71,12 @@ body {
     background: #AB4949;
 }
 
-
 .header__burger {
     display: none;
 }
+
+
+
 
 
 
@@ -236,6 +243,10 @@ body {
 
 
 
+
+
+
+
 .media {
     background-color: #F8EFEF;
 }
@@ -275,11 +286,16 @@ body {
 
 
 
+
+
+
+
 .tabs{
     display: flex;
     flex-wrap: wrap ;
     padding-top: 100px;
 }
+
 .tabs__label{
     text-align: center;
     align-items: center;
@@ -291,7 +307,6 @@ body {
     font-size: 14px;
     text-transform: uppercase;
 }
-
 
 .tabs__radio{
     display:none;
@@ -343,11 +358,6 @@ body {
     padding-bottom: 76px;
 }
 
-..tabs__content__wrap p {
-    width: 570px;
-}
-
-
 .tabs__text{
     font-family: 'Raleway';
     font-style: normal;
@@ -355,19 +365,21 @@ body {
     font-size: 18px;
     line-height: 21px;
 }
+
 .tabs__text span{
     display: block;
 }
+
 .space{
     padding-top:20px;
 }
 
 .tabs__content__wrap  h3{
     font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 41px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
 }
 
 .tabs__content__wrap img {
@@ -401,8 +413,11 @@ line-height: 41px;
     border:none;
     color:#FFFFFF;
     box-shadow: inset 0px 0px 10px #AB4949;
-
 }
+
+
+
+
 
 
 
@@ -452,9 +467,6 @@ line-height: 41px;
     width: 370px;
 }
 
-
-
-
 .awesome__item__title {
     font-weight: 700;
     font-size: 24px;
@@ -470,6 +482,9 @@ line-height: 41px;
     line-height: 21px;
     text-align: center;
 }
+
+
+
 
 
 
@@ -558,8 +573,10 @@ line-height: 41px;
 
 .pricing__item:hover {
     transform: translateY(-20px);
-    box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);;
+    box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
 }
+
+
 
 
 
@@ -644,6 +661,14 @@ line-height: 41px;
     top: 180px;
 }
 
+.feedback__dots {
+    display: none;
+}
+
+
+
+
+
 
 
 
@@ -697,6 +722,9 @@ line-height: 41px;
     border: 2px solid #AB4949;
     color: #FFFFFF;
 }
+
+
+
 
 
 
@@ -793,6 +821,8 @@ line-height: 41px;
     background: #EC7979;
     box-shadow: inset 0px 0px 10px #AB4949;
 }
+
+
 
 
 
