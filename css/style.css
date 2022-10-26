@@ -71,7 +71,14 @@ body {
     background: #AB4949;
 }
 
-.header__burger {
+/* .header__burger {
+    display: none;
+} */
+#check_menu {
+    display: none;
+}
+
+.header__all__burger {
     display: none;
 }
 
